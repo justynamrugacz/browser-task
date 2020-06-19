@@ -16,7 +16,7 @@ def wait_for(condition_function):
         if condition_function():
             return True
         else:
-            time.sleep(1.5)
+            time.sleep(3)
 
 
 @contextmanager
